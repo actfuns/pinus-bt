@@ -2,7 +2,13 @@
   "name": "pinus-bt",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index",
+  "types": "index",
+  "files": [
+    "dist",
+    "lib",
+    "index.ts"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "mochatest": "cd dist/lib && mocha --recursive",
